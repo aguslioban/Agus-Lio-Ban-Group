@@ -1,0 +1,149 @@
+.gaharu-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.gaharu-hero {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gaharu-container1 {
+  display: flex;
+  margin-right: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+}
+.gaharu-text {
+  font-size: 2rem;
+  max-width: 450px;
+  font-family: Noto Sans;
+}
+.gaharu-text01 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.gaharu-text12 {
+  text-transform: capitalize;
+}
+.gaharu-text13 {
+  text-transform: capitalize;
+}
+.gaharu-text14 {
+  text-transform: capitalize;
+}
+.gaharu-text15 {
+  text-transform: capitalize;
+}
+.gaharu-text16 {
+  text-transform: capitalize;
+}
+.gaharu-text17 {
+  text-transform: capitalize;
+}
+.gaharu-text18 {
+  text-transform: capitalize;
+}
+.gaharu-text19 {
+  text-transform: capitalize;
+}
+.gaharu-text20 {
+  text-transform: capitalize;
+}
+.gaharu-text21 {
+  text-transform: capitalize;
+}
+.gaharu-text22 {
+  text-transform: capitalize;
+}
+.gaharu-text23 {
+  text-transform: capitalize;
+}
+.gaharu-text24 {
+  text-transform: capitalize;
+}
+.gaharu-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.gaharu-link {
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.gaharu-link:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.gaharu-navlink {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  border-color: transparent;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.gaharu-navlink:hover {
+  border-color: var(--dl-color-gray-black);
+}
+@media(max-width: 991px) {
+  .gaharu-hero {
+    flex-direction: column;
+  }
+  .gaharu-container1 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 32px;
+    padding-right: 0px;
+  }
+  .gaharu-text {
+    text-align: center;
+  }
+  .gaharu-text01 {
+    text-align: center;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+@media(max-width: 767px) {
+  .gaharu-hero {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .gaharu-text01 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .gaharu-hero {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .gaharu-container1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .gaharu-btn-group {
+    flex-direction: column;
+  }
+  .gaharu-navlink {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+}

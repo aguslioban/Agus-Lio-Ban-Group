@@ -1,0 +1,466 @@
+.about-dunlop-shop-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.about-dunlop-shop-navlink {
+  display: contents;
+}
+.about-dunlop-shop-component {
+  text-decoration: none;
+}
+.about-dunlop-shop-hero {
+  width: 100%;
+  height: 722px;
+  display: flex;
+  padding: 48px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  min-height: 80vh;
+  align-items: center;
+  padding-top: 53px;
+  border-color: var(--dl-color-secondary-400);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+  padding-right: 26px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: linear-gradient(90deg, rgba(189, 195, 199, 0.18) 1.00%,rgba(255, 237, 0, 0.52) 100.00%),url("/dunlop%20shop%20agus%20lio%20ban%20%5B1920%20%C3%97%201080%20piksel%5D%20%5B1%5D-1500h.png");
+  background-position: center;
+  border-top-left-radius: var(--dl-radius-radius-radius40);
+  border-top-right-radius: var(--dl-radius-radius-radius40);
+  border-bottom-left-radius: var(--dl-radius-radius-radius5);
+  border-bottom-right-radius: var(--dl-radius-radius-radius40);
+}
+.about-dunlop-shop-container01 {
+  flex: 0 0 auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: flex-end;
+  align-items: center;
+  padding-left: 113px;
+  justify-content: center;
+}
+.about-dunlop-shop-card {
+  width: 857px;
+  height: 433px;
+  display: flex;
+  opacity: 0.8;
+  padding: var(--dl-space-space-tripleunit);
+  z-index: 1;
+  align-self: flex-end;
+  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
+  margin-top: var(--dl-space-space-twelveunits);
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  backdrop-filter: saturate(200%) blur(30px);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.about-dunlop-shop-text {
+  text-align: center;
+  background-image: linear-gradient(180deg, rgb(0, 0, 0) 0.00%,rgba(240, 6, 16, 0.92) 20.00%,rgba(236, 0, 0, 0.92) 100.00%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-dunlop-shop-text1 {
+  color: var(--dl-color-secondary-700);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unitandahalfunit);
+}
+.about-dunlop-shop-text2 {
+  color: var(--dl-color-secondary-600);
+  margin-right: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-tripleunit);
+}
+.about-dunlop-shop-container02 {
+  display: flex;
+  margin-top: var(--dl-space-space-unitandahalfunit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.about-dunlop-shop-container03 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.about-dunlop-shop-link {
+  display: contents;
+}
+.about-dunlop-shop-component01 {
+  text-decoration: none;
+}
+.about-dunlop-shop-navlink01 {
+  display: contents;
+}
+.about-dunlop-shop-component02 {
+  text-decoration: none;
+}
+.about-dunlop-shop-container04 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: none;
+  flex-wrap: wrap;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.about-dunlop-shop-image {
+  width: 25%;
+  opacity: 0.8;
+  align-self: center;
+  object-fit: cover;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+}
+.about-dunlop-shop-image1 {
+  width: 25%;
+  opacity: 0.8;
+  align-self: center;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+}
+.about-dunlop-shop-image2 {
+  width: var(--dl-size-size-unitandahalf);
+  align-self: center;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-doubleunit);
+}
+.about-dunlop-shop-image3 {
+  width: 15%;
+  align-self: center;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-doubleunit);
+}
+.about-dunlop-shop-blog {
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-dunlop-shop-container05 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-dunlop-shop-navlink02 {
+  display: contents;
+}
+.about-dunlop-shop-component03 {
+  text-decoration: none;
+}
+.about-dunlop-shop-container06 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-dunlop-shop-navlink03 {
+  display: contents;
+}
+.about-dunlop-shop-component04 {
+  text-decoration: none;
+}
+.about-dunlop-shop-container07 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-dunlop-shop-banner {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-dunlop-shop-text6 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: Noto Sans;
+}
+.about-dunlop-shop-text7 {
+  max-width: 1400px;
+  margin-top: 32px;
+  text-align: center;
+  font-family: Noto Sans;
+  margin-bottom: 32px;
+}
+.about-dunlop-shop-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.about-dunlop-shop-link1 {
+  color: var(--dl-color-gray-white);
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-black);
+}
+.about-dunlop-shop-link1:hover {
+  transform: scale(1.02);
+}
+.about-dunlop-shop-button {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.about-dunlop-shop-button:hover {
+  transform: scale(1.02);
+}
+.about-dunlop-shop-blog1 {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-dunlop-shop-container08 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-dunlop-shop-navlink04 {
+  display: contents;
+}
+.about-dunlop-shop-component05 {
+  text-decoration: none;
+}
+.about-dunlop-shop-container09 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-dunlop-shop-navlink05 {
+  display: contents;
+}
+.about-dunlop-shop-component06 {
+  text-decoration: none;
+}
+.about-dunlop-shop-container10 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-dunlop-shop-navlink06 {
+  display: contents;
+}
+.about-dunlop-shop-component07 {
+  text-decoration: none;
+}
+.about-dunlop-shop-blog2 {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-dunlop-shop-container11 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-dunlop-shop-navlink07 {
+  display: contents;
+}
+.about-dunlop-shop-component08 {
+  text-decoration: none;
+}
+.about-dunlop-shop-container12 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-dunlop-shop-navlink08 {
+  display: contents;
+}
+.about-dunlop-shop-component09 {
+  text-decoration: none;
+}
+.about-dunlop-shop-container13 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-dunlop-shop-navlink09 {
+  display: contents;
+}
+.about-dunlop-shop-component10 {
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .about-dunlop-shop-card {
+    width: 100%;
+  }
+  .about-dunlop-shop-blog {
+    flex-direction: column;
+  }
+  .about-dunlop-shop-container05 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .about-dunlop-shop-container06 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .about-dunlop-shop-blog1 {
+    flex-direction: column;
+  }
+  .about-dunlop-shop-container08 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .about-dunlop-shop-container09 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .about-dunlop-shop-blog2 {
+    flex-direction: column;
+  }
+  .about-dunlop-shop-container11 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .about-dunlop-shop-container12 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+}
+@media(max-width: 767px) {
+  .about-dunlop-shop-hero {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-dunlop-shop-card {
+    align-items: center;
+  }
+  .about-dunlop-shop-text2 {
+    text-align: center;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .about-dunlop-shop-text3 {
+    text-align: center;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .about-dunlop-shop-text4 {
+    text-align: center;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .about-dunlop-shop-text5 {
+    text-align: center;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .about-dunlop-shop-image {
+    width: 40%;
+  }
+  .about-dunlop-shop-image1 {
+    width: 40%;
+  }
+  .about-dunlop-shop-image2 {
+    width: 40%;
+  }
+  .about-dunlop-shop-image3 {
+    width: 40%;
+  }
+  .about-dunlop-shop-blog {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-dunlop-shop-banner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-dunlop-shop-text7 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .about-dunlop-shop-blog1 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-dunlop-shop-blog2 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .about-dunlop-shop-hero {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .about-dunlop-shop-card {
+    padding: var(--dl-space-space-unitandahalfunit);
+  }
+  .about-dunlop-shop-container02 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-dunlop-shop-container03 {
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .about-dunlop-shop-blog {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .about-dunlop-shop-banner {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .about-dunlop-shop-btn-group {
+    flex-direction: column;
+  }
+  .about-dunlop-shop-button {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .about-dunlop-shop-blog1 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .about-dunlop-shop-blog2 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+}

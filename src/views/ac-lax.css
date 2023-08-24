@@ -1,0 +1,43 @@
+.ac-lax-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.ac-lax-features {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  flex-direction: column;
+}
+.ac-lax-text {
+  font-size: 3rem;
+  font-family: Roboto;
+  margin-bottom: 48px;
+}
+.ac-lax-container1 {
+  width: 100%;
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: 1fr 1fr;
+}
+@media(max-width: 767px) {
+  .ac-lax-features {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .ac-lax-container1 {
+    grid-template-columns: 1fr;
+  }
+}
+@media(max-width: 479px) {
+  .ac-lax-features {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+}

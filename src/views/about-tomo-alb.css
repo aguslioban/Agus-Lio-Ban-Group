@@ -1,0 +1,531 @@
+.about-tomo-alb-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-tomo-alb-navlink {
+  display: contents;
+}
+.about-tomo-alb-component {
+  text-decoration: none;
+}
+.about-tomo-alb-hero {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  min-height: 80vh;
+  align-items: center;
+  border-color: var(--dl-color-secondary-400);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: linear-gradient(90deg, rgba(189, 195, 199, 0.18) 1.00%,rgba(255, 0, 17, 0.58) 100.00%),url('https://agusliobangroup.files.wordpress.com/2021/02/whatsapp-image-2021-02-18-at-16.57.39.jpeg');
+  background-position: center;
+  border-top-left-radius: var(--dl-radius-radius-radius40);
+  border-top-right-radius: var(--dl-radius-radius-radius40);
+  border-bottom-left-radius: var(--dl-radius-radius-radius5);
+  border-bottom-right-radius: var(--dl-radius-radius-radius40);
+}
+.about-tomo-alb-container01 {
+  flex: 0 0 auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: flex-end;
+  align-items: center;
+  padding-left: 113px;
+  justify-content: center;
+}
+.about-tomo-alb-card {
+  flex: 0 0 auto;
+  width: 717px;
+  height: 517px;
+  display: flex;
+  opacity: 0.8;
+  padding: var(--dl-space-space-tripleunit);
+  z-index: 1;
+  align-self: flex-end;
+  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
+  margin-top: var(--dl-space-space-tripleunit);
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  backdrop-filter: saturate(200%) blur(30px);
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.about-tomo-alb-text {
+  text-align: center;
+  background-image: linear-gradient(180deg, rgb(0, 0, 0) 0.00%,rgba(240, 6, 16, 0.92) 20.00%,rgba(240, 6, 16, 0.92) 100.00%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-tomo-alb-text1 {
+  color: var(--dl-color-secondary-700);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unitandahalfunit);
+}
+.about-tomo-alb-text2 {
+  color: var(--dl-color-secondary-600);
+  margin-right: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-tripleunit);
+}
+.about-tomo-alb-container02 {
+  display: flex;
+  margin-top: var(--dl-space-space-unitandahalfunit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.about-tomo-alb-container03 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.about-tomo-alb-link {
+  display: contents;
+}
+.about-tomo-alb-component01 {
+  text-decoration: none;
+}
+.about-tomo-alb-navlink01 {
+  display: contents;
+}
+.about-tomo-alb-component02 {
+  text-decoration: none;
+}
+.about-tomo-alb-blog {
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-tomo-alb-container04 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-tomo-alb-navlink02 {
+  display: contents;
+}
+.about-tomo-alb-component03 {
+  text-decoration: none;
+}
+.about-tomo-alb-container05 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-tomo-alb-navlink03 {
+  display: contents;
+}
+.about-tomo-alb-component04 {
+  text-decoration: none;
+}
+.about-tomo-alb-container06 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-tomo-alb-banner {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-tomo-alb-text6 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: Noto Sans;
+}
+.about-tomo-alb-text7 {
+  max-width: 1400px;
+  margin-top: 32px;
+  text-align: center;
+  font-family: Noto Sans;
+  margin-bottom: 32px;
+}
+.about-tomo-alb-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.about-tomo-alb-link1 {
+  color: var(--dl-color-gray-white);
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-black);
+}
+.about-tomo-alb-link1:hover {
+  transform: scale(1.02);
+}
+.about-tomo-alb-button {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.about-tomo-alb-button:hover {
+  transform: scale(1.02);
+}
+.about-tomo-alb-blog1 {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-tomo-alb-container07 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-tomo-alb-navlink04 {
+  display: contents;
+}
+.about-tomo-alb-component05 {
+  text-decoration: none;
+}
+.about-tomo-alb-container08 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-tomo-alb-container09 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-tomo-alb-navlink05 {
+  display: contents;
+}
+.about-tomo-alb-component07 {
+  text-decoration: none;
+}
+.about-tomo-alb-blog2 {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-tomo-alb-container10 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-tomo-alb-navlink06 {
+  display: contents;
+}
+.about-tomo-alb-component08 {
+  text-decoration: none;
+}
+.about-tomo-alb-container11 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-tomo-alb-navlink07 {
+  display: contents;
+}
+.about-tomo-alb-component09 {
+  text-decoration: none;
+}
+.about-tomo-alb-container12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-tomo-alb-navlink08 {
+  display: contents;
+}
+.about-tomo-alb-component10 {
+  text-decoration: none;
+}
+.about-tomo-alb-blog3 {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-tomo-alb-container13 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-tomo-alb-navlink09 {
+  display: contents;
+}
+.about-tomo-alb-component11 {
+  text-decoration: none;
+}
+.about-tomo-alb-container14 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-tomo-alb-navlink10 {
+  display: contents;
+}
+.about-tomo-alb-component12 {
+  text-decoration: none;
+}
+.about-tomo-alb-container15 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-tomo-alb-navlink11 {
+  display: contents;
+}
+.about-tomo-alb-component13 {
+  text-decoration: none;
+}
+.about-tomo-alb-blog4 {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-tomo-alb-container16 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-tomo-alb-navlink12 {
+  display: contents;
+}
+.about-tomo-alb-component14 {
+  text-decoration: none;
+}
+.about-tomo-alb-container17 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.about-tomo-alb-navlink13 {
+  display: contents;
+}
+.about-tomo-alb-component15 {
+  text-decoration: none;
+}
+.about-tomo-alb-container18 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media(max-width: 991px) {
+  .about-tomo-alb-card {
+    width: 100%;
+  }
+  .about-tomo-alb-blog {
+    flex-direction: column;
+  }
+  .about-tomo-alb-container04 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .about-tomo-alb-container05 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .about-tomo-alb-blog1 {
+    flex-direction: column;
+  }
+  .about-tomo-alb-container07 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .about-tomo-alb-container08 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .about-tomo-alb-blog2 {
+    flex-direction: column;
+  }
+  .about-tomo-alb-container10 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .about-tomo-alb-container11 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .about-tomo-alb-blog3 {
+    flex-direction: column;
+  }
+  .about-tomo-alb-container13 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .about-tomo-alb-container14 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .about-tomo-alb-blog4 {
+    flex-direction: column;
+  }
+  .about-tomo-alb-container16 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .about-tomo-alb-container17 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+}
+@media(max-width: 767px) {
+  .about-tomo-alb-hero {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-tomo-alb-card {
+    align-items: center;
+  }
+  .about-tomo-alb-text2 {
+    text-align: center;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .about-tomo-alb-text3 {
+    text-align: center;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .about-tomo-alb-text4 {
+    text-align: center;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .about-tomo-alb-text5 {
+    text-align: center;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .about-tomo-alb-blog {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-tomo-alb-banner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-tomo-alb-text7 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .about-tomo-alb-blog1 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-tomo-alb-blog2 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-tomo-alb-blog3 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-tomo-alb-blog4 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .about-tomo-alb-hero {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .about-tomo-alb-card {
+    padding: var(--dl-space-space-unitandahalfunit);
+  }
+  .about-tomo-alb-container02 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-tomo-alb-container03 {
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .about-tomo-alb-blog {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .about-tomo-alb-banner {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .about-tomo-alb-btn-group {
+    flex-direction: column;
+  }
+  .about-tomo-alb-button {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .about-tomo-alb-blog1 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .about-tomo-alb-blog2 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .about-tomo-alb-blog3 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .about-tomo-alb-blog4 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+}

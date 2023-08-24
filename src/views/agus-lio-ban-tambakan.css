@@ -1,0 +1,187 @@
+.agus-lio-ban-tambakan-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.agus-lio-ban-tambakan-banner {
+  width: 100%;
+  height: 621px;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  background-size: cover;
+  justify-content: space-between;
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipMRYkQETemhKLZ6izrhcMbv2ZNBl6Y7BwoDXsQF=s680-w680-h510');
+}
+.agus-lio-ban-tambakan-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.agus-lio-ban-tambakan-hero {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.agus-lio-ban-tambakan-container2 {
+  display: flex;
+  margin-right: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+}
+.agus-lio-ban-tambakan-text {
+  font-size: 2rem;
+  max-width: 450px;
+  font-family: Noto Sans;
+}
+.agus-lio-ban-tambakan-text01 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.agus-lio-ban-tambakan-text10 {
+  text-transform: capitalize;
+}
+.agus-lio-ban-tambakan-text11 {
+  text-transform: capitalize;
+}
+.agus-lio-ban-tambakan-text12 {
+  text-transform: capitalize;
+}
+.agus-lio-ban-tambakan-text13 {
+  text-transform: capitalize;
+}
+.agus-lio-ban-tambakan-text14 {
+  text-transform: capitalize;
+}
+.agus-lio-ban-tambakan-text15 {
+  text-transform: capitalize;
+}
+.agus-lio-ban-tambakan-text16 {
+  text-transform: capitalize;
+}
+.agus-lio-ban-tambakan-text17 {
+  text-transform: capitalize;
+}
+.agus-lio-ban-tambakan-text18 {
+  text-transform: capitalize;
+}
+.agus-lio-ban-tambakan-text19 {
+  text-transform: capitalize;
+}
+.agus-lio-ban-tambakan-text20 {
+  text-transform: capitalize;
+}
+.agus-lio-ban-tambakan-text21 {
+  text-transform: capitalize;
+}
+.agus-lio-ban-tambakan-text22 {
+  text-transform: capitalize;
+}
+.agus-lio-ban-tambakan-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.agus-lio-ban-tambakan-link {
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.agus-lio-ban-tambakan-link:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.agus-lio-ban-tambakan-navlink {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  border-color: transparent;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.agus-lio-ban-tambakan-navlink:hover {
+  border-color: var(--dl-color-gray-black);
+}
+@media(max-width: 991px) {
+  .agus-lio-ban-tambakan-hero {
+    flex-direction: column;
+  }
+  .agus-lio-ban-tambakan-container2 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 32px;
+    padding-right: 0px;
+  }
+  .agus-lio-ban-tambakan-text {
+    text-align: center;
+  }
+  .agus-lio-ban-tambakan-text01 {
+    text-align: center;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+@media(max-width: 767px) {
+  .agus-lio-ban-tambakan-banner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .agus-lio-ban-tambakan-hero {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .agus-lio-ban-tambakan-text01 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .agus-lio-ban-tambakan-banner {
+    padding-top: 48px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 48px;
+  }
+  .agus-lio-ban-tambakan-container1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .agus-lio-ban-tambakan-hero {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .agus-lio-ban-tambakan-container2 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .agus-lio-ban-tambakan-btn-group {
+    flex-direction: column;
+  }
+  .agus-lio-ban-tambakan-navlink {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+}
