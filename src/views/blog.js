@@ -116,11 +116,11 @@ const Blog = (props) => {
                 className="blog-component6"
               ></BlogCard>
             </Link>
-            <Link to="/blog" className="blog-navlink6">
+            <Link to="/news4" className="blog-navlink6">
               <BlogCard
                 title="MateLabs machine learning"
-                new_prop="KENALI 5 PENYEBAB  WIPER MOBIL HARUS DIGANTI"
-                image_src="https://otoklix-production.s3.amazonaws.com/uploads/2021/11/wiper-mobil-terbaik.jpg"
+                new_prop="Pemenang Undian Hanphone Agus Lio Ban Group"
+                image_src="/setiap%20pembelian%20ban%20turanza%20too5a%20%5B22%5D-300w.png"
                 description="Indikator wiper mobil harus diganti baru bisa dilihat dari kinerjanya yang tanpa suara. Jika terdengar suara berdecit saat dipakai, kemungkinan adanya kerusakan bisa terjadi. Bunyi berdecit ini bisa muncul karena plastik di wiper terseret, sehingga menekan kaca"
                 className="blog-component7"
               ></BlogCard>
