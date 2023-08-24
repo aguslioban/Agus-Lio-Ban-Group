@@ -46,7 +46,7 @@ const Blog = (props) => {
         </div>
       </div>
       <div className="blog-blog">
-        <Link to="/news4" className="blog-navlink">
+        <Link to="/news5" className="blog-navlink">
           <BlogPostCard2
             label="NEWS"
             title="FAMILY GATHERING AGUS LIO BAN GROUP KE TAMAN SAFARI INDONESIA"
