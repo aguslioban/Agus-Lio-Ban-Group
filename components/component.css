@@ -1,0 +1,9 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-text {
+  font-family: Roboto;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}

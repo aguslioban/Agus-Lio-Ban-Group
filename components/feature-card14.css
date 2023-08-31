@@ -1,0 +1,48 @@
+.feature-card14-feature-card {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: 1400px;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card14-feature-card:hover {
+  transform: scale(1.02);
+}
+.feature-card14-text {
+  width: 396px;
+  height: 50px;
+  align-self: flex-start;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.feature-card14-image {
+  width: 308px;
+  height: 430px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.feature-card14-root-class-name16 {
+  display: none;
+}
+.feature-card14-root-class-name17 {
+  display: none;
+}
+
+
+
